@@ -13,7 +13,14 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        display: ['"Space Grotesk"', 'sans-serif'],
+        body: ['"Plus Jakarta Sans"', 'sans-serif'],
+      },
       colors: {
+        gold: "hsl(var(--gold))",
+        silver: "hsl(var(--silver))",
+        bronze: "hsl(var(--bronze))",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
